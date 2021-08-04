@@ -1,843 +1,747 @@
 Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'zh' Physical Memory: 16231 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MacOS/Unity
+D:\Unity\2020.3.14f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/reatured/Documents/1.3 Unity/Project/Week 15 - Shader Graph
+D:/01的文件夹/1. Unity/1. Game Project/Week-15---Shader-Graph-VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65265
-Successfully changed project path to: /Users/reatured/Documents/1.3 Unity/Project/Week 15 - Shader Graph
-/Users/reatured/Documents/1.3 Unity/Project/Week 15 - Shader Graph
+4923
+Successfully changed project path to: D:/01的文件夹/1. Unity/1. Game Project/Week-15---Shader-Graph-VR
+D:/01的文件夹/1. Unity/1. Game Project/Week-15---Shader-Graph-VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 67.13 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/reatured/Documents/1.3 Unity/Project/Week 15 - Shader Graph/Assets
+Refreshing native plugins compatible for Editor in 66.88 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/01的文件夹/1. Unity/1. Game Project/Week-15---Shader-Graph-VR/Assets
 GfxDevice: creating device client; threaded=0
-2021-07-30 22:56:42.487 Unity[44265:2319192] Color LCD preferred device: AMD Radeon Pro 5300M (high power)
-2021-07-30 22:56:42.487 Unity[44265:2319192] Metal devices available: 2
-2021-07-30 22:56:42.487 Unity[44265:2319192] 0: AMD Radeon Pro 5300M (high power)
-2021-07-30 22:56:42.487 Unity[44265:2319192] 1: Intel(R) UHD Graphics 630 (low power)
-2021-07-30 22:56:42.487 Unity[44265:2319192] Using device AMD Radeon Pro 5300M (high power)
-Initializing Metal device caps: AMD Radeon Pro 5300M
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   26.21.14.4259
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56265
+Mono path[0] = 'D:/Unity/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004392 seconds.
+Register platform support module: D:/Unity/2020.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2020.3.14f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Unity/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001660 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 95.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
+Refreshing native plugins compatible for Editor in 59.46 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.445 seconds
+- Completed reload, in  1.339 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1339ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002759 seconds.
+Registered in 0.005475 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 70.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
+Refreshing native plugins compatible for Editor in 61.50 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:102)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 102]
+
+UnityEngine.UnityException: Creating asset at path Assets\XR\Loaders\Magic Leap Loader.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in D:\01的文件夹\1. Unity\1. Game Project\Week-15---Shader-Graph-VR\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\EditorUtilities.cs:102 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeLoaderFromMetadata (System.String packageName, System.Collections.Generic.List`1[T] loaderMetadatas) [0x0004e] in D:\01的文件夹\1. Unity\1. Game Project\Week-15---Shader-Graph-VR\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:152 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00001] in D:\01的文件夹\1. Unity\1. Game Project\Week-15---Shader-Graph-VR\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:129 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in D:\01的文件夹\1. Unity\1. Game Project\Week-15---Shader-Graph-VR\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:118 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in D:\01的文件夹\1. Unity\1. Game Project\Week-15---Shader-Graph-VR\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:87 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in D:\01的文件夹\1. Unity\1. Game Project\Week-15---Shader-Graph-VR\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:50 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\01的文件夹\1. Unity\1. Game Project\Week-15---Shader-Graph-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\01的文件夹\1. Unity\1. Game Project\Week-15---Shader-Graph-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <25e9afc147634a5ca855ab83fab425dd>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.850 seconds
+- Completed reload, in  1.421 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1422ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1219ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (613ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2798 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.0 MB.
-System memory in use after: 203.1 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3882 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.0 MB.
+System memory in use after: 168.2 MB.
 
-Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 3231.
-Total: 2.984028 ms (FindLiveObjects: 0.305562 ms CreateObjectMapping: 0.170912 ms MarkObjects: 2.343914 ms  DeleteObjects: 0.162644 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Setting
-  artifactKey: Guid(8465b8640e63248cfa740b3a365ecc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Setting using Guid(8465b8640e63248cfa740b3a365ecc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98f314630d5cb37c26df85a5d66b6d3') in 0.005629 seconds
-  Import took 0.010573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.078091 seconds.
-  path: Assets/Setting/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(7052ee845f7b447918682ce66cd1bea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Setting/UniversalRenderPipelineAsset.asset using Guid(7052ee845f7b447918682ce66cd1bea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf85c61829a0638a266900bfd41253f8') in 0.957044 seconds
-  Import took 0.963823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Setting/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(975c9e783b7b647908d0ad5eb22c8e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Setting/UniversalRenderPipelineAsset_Renderer.asset using Guid(975c9e783b7b647908d0ad5eb22c8e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fc8c80c29ff97b84b462adf3fb7353') in 0.020558 seconds
-  Import took 0.025576 seconds .
-
-========================================================================
-Received Prepare
-Switching render pipeline 00000000000000000000000000000000 -> 7052ee845f7b447918682ce66cd1bea8
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.18 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.8 MB.
-System memory in use after: 150.9 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3279.
-Total: 5.386530 ms (FindLiveObjects: 0.417003 ms CreateObjectMapping: 0.365332 ms MarkObjects: 4.487665 ms  DeleteObjects: 0.114655 ms)
-
-========================================================================
-Received Prepare
-Switching render pipeline 00000000000000000000000000000000 -> 7052ee845f7b447918682ce66cd1bea8
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.85 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.7 MB.
-System memory in use after: 149.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3279.
-Total: 10.436940 ms (FindLiveObjects: 0.522773 ms CreateObjectMapping: 0.146608 ms MarkObjects: 9.639561 ms  DeleteObjects: 0.126924 ms)
+Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 4313.
+Total: 3.368600 ms (FindLiveObjects: 0.344500 ms CreateObjectMapping: 0.176500 ms MarkObjects: 2.683200 ms  DeleteObjects: 0.163500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
-========================================================================
-Received Prepare
-Switching render pipeline 00000000000000000000000000000000 -> 7052ee845f7b447918682ce66cd1bea8
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.8 MB.
-System memory in use after: 150.0 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3279.
-Total: 4.592167 ms (FindLiveObjects: 0.355922 ms CreateObjectMapping: 0.176311 ms MarkObjects: 3.895517 ms  DeleteObjects: 0.162814 ms)
-
-========================================================================
-Received Prepare
-Switching render pipeline 00000000000000000000000000000000 -> 7052ee845f7b447918682ce66cd1bea8
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.9 MB.
-System memory in use after: 150.1 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3279.
-Total: 4.019636 ms (FindLiveObjects: 0.625270 ms CreateObjectMapping: 0.360567 ms MarkObjects: 2.929823 ms  DeleteObjects: 0.102339 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
-========================================================================
-Received Prepare
-Switching render pipeline 00000000000000000000000000000000 -> 7052ee845f7b447918682ce66cd1bea8
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.1 MB.
-System memory in use after: 150.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3279.
-Total: 4.389953 ms (FindLiveObjects: 0.442156 ms CreateObjectMapping: 0.201847 ms MarkObjects: 3.629535 ms  DeleteObjects: 0.114566 ms)
-
-========================================================================
-Received Prepare
-Switching render pipeline 00000000000000000000000000000000 -> 7052ee845f7b447918682ce66cd1bea8
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.2 MB.
-System memory in use after: 150.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3279.
-Total: 3.404177 ms (FindLiveObjects: 0.329431 ms CreateObjectMapping: 0.175619 ms MarkObjects: 2.784212 ms  DeleteObjects: 0.113489 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8103.904644 seconds.
-  path: Assets/New Folder
-  artifactKey: Guid(752a81b617ae34ae4b8572f8249ad567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(752a81b617ae34ae4b8572f8249ad567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e6a72c797bc8f688825961a4f6de09') in 0.008152 seconds
-  Import took 0.087533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.399401 seconds.
-  path: Assets/Shaders
-  artifactKey: Guid(752a81b617ae34ae4b8572f8249ad567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders using Guid(752a81b617ae34ae4b8572f8249ad567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd995c488e0a8f5441c229267426cb9') in 0.001847 seconds
-  Import took 0.007084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.802709 seconds.
-  path: Assets/Shaders/New Shader Graph.shadergraph
-  artifactKey: Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/New Shader Graph.shadergraph using Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3257a8997c6e67943cace27b50489c23') in 0.640760 seconds
-  Import took 0.648038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.405185 seconds.
-  path: Assets/Shaders/Demo.shadergraph
-  artifactKey: Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Demo.shadergraph using Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f0085494135dba833fc6479c743b64') in 0.007377 seconds
-  Import took 0.013548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 249.414245 seconds.
   path: Assets/Shaders/Shader Graphs_Demo.mat
   artifactKey: Guid(06466cb345bb44b628253ec33351dceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader Graphs_Demo.mat using Guid(06466cb345bb44b628253ec33351dceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7f64002217aa9e14e9d9d47798593a') in 1.414224 seconds
-  Import took 1.420842 seconds .
+Start importing Assets/Shaders/Shader Graphs_Demo.mat using Guid(06466cb345bb44b628253ec33351dceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51848861eded991e65f74c503090c622') in 0.258034 seconds 
+  Import took 0.264358 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.713943 seconds.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Shaders/PBR Shader Sub Graph.shadersubgraph
+  artifactKey: Guid(75769e7aa484542458bdf4d00e1b40dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/PBR Shader Sub Graph.shadersubgraph using Guid(75769e7aa484542458bdf4d00e1b40dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08d4476f8523ec88de193f1f48db7a2') in 0.014912 seconds 
+  Import took 0.021505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Shaders/Shader Graphs_Lit.mat
+  artifactKey: Guid(3a196c154248147b08f50a34679762c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graphs_Lit.mat using Guid(3a196c154248147b08f50a34679762c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10e4049ee8cf6d74c772e3336a321a5') in 0.094625 seconds 
+  Import took 0.101355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 279.486387 seconds.
   path: Assets/Shaders/Demo.shadergraph
   artifactKey: Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Demo.shadergraph using Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe28158a84d75c6d373a19b9a9eb6249') in 0.004372 seconds
-  Import took 0.010393 seconds .
+Start importing Assets/Shaders/Demo.shadergraph using Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5e1ae9ea980547fc66621dfbd6025b') in 0.011384 seconds 
+  Import took 0.021783 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 264.954450 seconds.
+  Time since last request: 0.050693 seconds.
   path: Assets/Shaders/Demo.shadergraph
   artifactKey: Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Demo.shadergraph using Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca12a21ae08798c43010c97738e3e4a') in 0.004100 seconds
-  Import took 0.009190 seconds .
+Start importing Assets/Shaders/Demo.shadergraph using Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5e1ae9ea980547fc66621dfbd6025b') in 0.003644 seconds 
+  Import took 0.009125 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.503482 seconds.
-  path: Assets/Shaders/Demo.shadergraph
-  artifactKey: Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Demo.shadergraph using Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9ba1a762ca4d199b27852781791b57') in 0.004719 seconds
-  Import took 0.010064 seconds .
+  Time since last request: 0.760782 seconds.
+  path: Assets/Shaders/Lit.shadergraph
+  artifactKey: Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Lit.shadergraph using Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8da31b1af92928cb6d0b82a6b6fffcf') in 0.011733 seconds 
+  Import took 0.020057 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 372.000558 seconds.
-  path: Assets/Shaders/Demo.shadergraph
-  artifactKey: Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Demo.shadergraph using Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab653024384f0032ce60a41e148a56e') in 0.005929 seconds
-  Import took 0.013089 seconds .
+  Time since last request: 0.009403 seconds.
+  path: Assets/Shaders/Lit.shadergraph
+  artifactKey: Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Lit.shadergraph using Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8da31b1af92928cb6d0b82a6b6fffcf') in 0.003778 seconds 
+  Import took 0.011671 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 498.009616 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Icons/Help_Icon.png
-  artifactKey: Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Icons/Help_Icon.png using Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecadad91e97c7d5fb7d6ddbdc2c27ad') in 1.361928 seconds
-  Import took 1.367816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/Moss/mossy_mud1_Normal-ogl.png
-  artifactKey: Guid(7b8eeba3cc4b1244abc4dcad93a2ff40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/Moss/mossy_mud1_Normal-ogl.png using Guid(7b8eeba3cc4b1244abc4dcad93a2ff40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a675566e5be57fc0b5319a7e2f8f87') in 0.024348 seconds
-  Import took 0.032141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/UVLayout.jpg
-  artifactKey: Guid(e10d71587fedc7f4c98bfb5a02d1beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/UVLayout.jpg using Guid(e10d71587fedc7f4c98bfb5a02d1beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c006a8a7144b7fc08371aa93c044223') in 1.391962 seconds
-  Import took 1.399562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/Moss/mossy_mud1_albedo.png
-  artifactKey: Guid(8b182064fe8c52649b489d64cf417050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/Moss/mossy_mud1_albedo.png using Guid(8b182064fe8c52649b489d64cf417050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98760ba132a0a06b47d8340041157126') in 0.016616 seconds
-  Import took 0.023390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/Moss/mossy_mud1_Metallic.psd
-  artifactKey: Guid(f4da71ef366dcb94f83fe55a600ceccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/Moss/mossy_mud1_Metallic.psd using Guid(f4da71ef366dcb94f83fe55a600ceccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6e4835746585e5ae10e3fc4273e55b') in 0.433290 seconds
-  Import took 0.439523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b-metalness.psd
-  artifactKey: Guid(71247ef5d4e64c04288a1d881a874f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b-metalness.psd using Guid(71247ef5d4e64c04288a1d881a874f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77102cb8c7df3562753ef17c5273c295') in 0.018876 seconds
-  Import took 0.025106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b.png
-  artifactKey: Guid(07514b0063cb3b945a93f8b1cb4accad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b.png using Guid(07514b0063cb3b945a93f8b1cb4accad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86223eebd9ea7d91e9fc2d6acf6cb639') in 0.015629 seconds
-  Import took 0.020938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b-normal.png
-  artifactKey: Guid(77d4f6da92e6bbf43a0eb7f26cf976e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b-normal.png using Guid(77d4f6da92e6bbf43a0eb7f26cf976e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbe2b2fe4ce35340564d8eb9b2b2ae8') in 0.023826 seconds
-  Import took 0.029468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b-ao2.png
-  artifactKey: Guid(8d6fc03f74b9d7b4bac1f2f6d7e8437d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b-ao2.png using Guid(8d6fc03f74b9d7b4bac1f2f6d7e8437d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde1292fd49c3ab2bc92b68ce5492ba4') in 0.015493 seconds
-  Import took 0.021647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Icons/SnapsIcon.png
-  artifactKey: Guid(f3b461aa3ce4e164e80610d900c9b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Icons/SnapsIcon.png using Guid(f3b461aa3ce4e164e80610d900c9b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0484c98d707ef8c9b305da7a232c9b08') in 0.010820 seconds
-  Import took 0.016005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7703.569672 seconds.
-  path: Assets/Shaders/Cellular Pattern.shader
-  artifactKey: Guid(c0b447346e28144048ba5f2cb64bd616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Cellular Pattern.shader using Guid(c0b447346e28144048ba5f2cb64bd616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709e08965852de3c462d4061e2d97754') in 1.198864 seconds
-  Import took 1.263702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 71.561484 seconds.
-  path: Assets/Shaders/Cellular Pattern.hlsl.shader
-  artifactKey: Guid(f9177544195fd4ee38480a0f389a03b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Cellular Pattern.hlsl.shader using Guid(f9177544195fd4ee38480a0f389a03b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c80a9a63c9a2392bca20a6d9b356cec') in 0.006626 seconds
-  Import took 0.013268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 896.076612 seconds.
-  path: Assets/Shaders/Cellular Pattern.hlsl
-  artifactKey: Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Cellular Pattern.hlsl using Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55eefefc8e1c7cb0875e81d23fc09bf6') in 0.268556 seconds
-  Import took 0.276552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.414192 seconds.
-  path: Assets/Shaders/Cellular Pattern.hlsl
-  artifactKey: Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Cellular Pattern.hlsl using Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ae1ece296fe976a7fec1274dbf4f5c') in 0.008786 seconds
-  Import took 0.018734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 159.581793 seconds.
-  path: Assets/Shaders/Cellular Pattern.hlsl
-  artifactKey: Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Cellular Pattern.hlsl using Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ad6a8ec7b3139d63e0592d01e9dc2f') in 0.006578 seconds
-  Import took 0.012765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 363.429109 seconds.
-  path: Assets/Shaders/Cellular Pattern.hlsl
-  artifactKey: Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Cellular Pattern.hlsl using Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c391a46e0c4e4d67af2d4c4739038433') in 0.006960 seconds
-  Import took 0.014556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.994495 seconds.
-  path: Assets/Shaders/Cellular Pattern.hlsl
-  artifactKey: Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Cellular Pattern.hlsl using Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187cf2ad306ef27f7ac26581466f2760') in 0.006338 seconds
-  Import took 0.013065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.882798 seconds.
-  path: Assets/Shaders/Cellular Pattern.hlsl
-  artifactKey: Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Cellular Pattern.hlsl using Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63095d8d65d90564e607c141cad94079') in 0.006856 seconds
-  Import took 0.013022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.935742 seconds.
-  path: Assets/Shaders/Cellular Pattern.hlsl
-  artifactKey: Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Cellular Pattern.hlsl using Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c501232c0f951cbbcb0715777c5ed8') in 0.005348 seconds
-  Import took 0.011976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.970502 seconds.
+  Time since last request: 153.476952 seconds.
   path: Assets/Shaders/Shader Graphs_Demo.mat
   artifactKey: Guid(06466cb345bb44b628253ec33351dceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader Graphs_Demo.mat using Guid(06466cb345bb44b628253ec33351dceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8333681fdec1ab923e3e22d409068c10') in 0.727928 seconds
-  Import took 0.734075 seconds .
+Start importing Assets/Shaders/Shader Graphs_Demo.mat using Guid(06466cb345bb44b628253ec33351dceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd217adc3fa37516339ec91c5c58ab95e') in 0.067662 seconds 
+  Import took 0.074277 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.789634 seconds.
-  path: Assets/Shaders/Cellular Pattern.hlsl
-  artifactKey: Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Cellular Pattern.hlsl using Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6b0064b92c2f5d6f63ae295b29699a') in 0.005131 seconds
-  Import took 0.010827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.707516 seconds.
-  path: Assets/Shaders/Cellular Pattern.hlsl
-  artifactKey: Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Cellular Pattern.hlsl using Guid(5adf57f216c7343458450f1dd9fcafa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc8158c91a05302392ba684ba73fd4b') in 0.005165 seconds
-  Import took 0.011289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 193.656353 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/AirDuct_01_Corner_Collider.asset
-  artifactKey: Guid(f2211dd587b1cf64d8afb8cc257c51ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/AirDuct_01_Corner_Collider.asset using Guid(f2211dd587b1cf64d8afb8cc257c51ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ce93ada2fbac146f16c7c58ac63ea5') in 0.138252 seconds
-  Import took 0.143696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/Cabinet_04_snaps001.asset
-  artifactKey: Guid(19f4b497b820d084394e4017c9f22980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/Cabinet_04_snaps001.asset using Guid(19f4b497b820d084394e4017c9f22980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a82db8e13047e5cd3595e9565e40a4') in 0.082796 seconds
-  Import took 0.089019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/AirDuct_01_Corner_snaps001.asset
-  artifactKey: Guid(fc0b5d78437d37148ae72498507177d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/AirDuct_01_Corner_snaps001.asset using Guid(fc0b5d78437d37148ae72498507177d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c15ae677742ed427e2296c9230a08d6') in 0.073493 seconds
-  Import took 0.078803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/CeilingLights_01_snaps001.asset
-  artifactKey: Guid(8c8289a7d2c48694088387edf71ac345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/CeilingLights_01_snaps001.asset using Guid(8c8289a7d2c48694088387edf71ac345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c381fa49176ab3bd558f5e86819520') in 0.014205 seconds
-  Import took 0.018830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/AirDuct_01_Corner_snaps001.asset
-  artifactKey: Guid(fc0b5d78437d37148ae72498507177d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/AirDuct_01_Corner_snaps001.asset using Guid(fc0b5d78437d37148ae72498507177d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c15ae677742ed427e2296c9230a08d6') in 0.011365 seconds
-  Import took 0.016216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/AirDuct_01_snaps001.asset
-  artifactKey: Guid(dc132711e5cf0d8489ca0c2edc965e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/AirDuct_01_snaps001.asset using Guid(dc132711e5cf0d8489ca0c2edc965e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60a4e49b49857016931a92ab1124dfa') in 0.014022 seconds
-  Import took 0.019204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/Cabinet_01_snaps001.asset
-  artifactKey: Guid(776defafc8618a94fa70931abf3029db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/Cabinet_01_snaps001.asset using Guid(776defafc8618a94fa70931abf3029db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac836ec5d12ae6b3ae60c79a6e469303') in 0.012159 seconds
-  Import took 0.017826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/Cabinet_02_snaps001.asset
-  artifactKey: Guid(32c52341da320ff498bc99423fd2b8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/Cabinet_02_snaps001.asset using Guid(32c52341da320ff498bc99423fd2b8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb63309abe23d6128883e07da6d4bbad') in 0.011664 seconds
-  Import took 0.017354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/Cabinet_03_snaps001.asset
-  artifactKey: Guid(94d24dcd7a8b5c14086fd8d57164decf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/Cabinet_03_snaps001.asset using Guid(94d24dcd7a8b5c14086fd8d57164decf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ea271aadbbcf782eb8463a171558f6') in 0.012372 seconds
-  Import took 0.017127 seconds .
+  Time since last request: 13.044140 seconds.
+  path: Assets/Shaders/Shader Graphs_Blue 1.mat
+  artifactKey: Guid(92cae707dc044744ba1c6cb27a810ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graphs_Blue 1.mat using Guid(92cae707dc044744ba1c6cb27a810ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babdcab567392e125e435698c829e8c0') in 0.055070 seconds 
+  Import took 0.063215 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002642 seconds.
+Registered in 0.013096 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
 UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\01的文件夹\1. Unity\1. Game Project\Week-15---Shader-Graph-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\01的文件夹\1. Unity\1. Game Project\Week-15---Shader-Graph-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <25e9afc147634a5ca855ab83fab425dd>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
 Mono: successfully reloaded assembly
-- Completed reload, in  2.026 seconds
+- Completed reload, in  1.374 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1375ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1154ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (308ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 239.8 MB.
-System memory in use after: 239.4 MB.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3726 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.6 MB.
+System memory in use after: 163.8 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3369.
-Total: 3.553688 ms (FindLiveObjects: 0.330205 ms CreateObjectMapping: 0.147010 ms MarkObjects: 2.545958 ms  DeleteObjects: 0.529523 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4397.
+Total: 3.182700 ms (FindLiveObjects: 0.312400 ms CreateObjectMapping: 0.185200 ms MarkObjects: 2.665300 ms  DeleteObjects: 0.019000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1121.475418 seconds.
+  path: Assets/Shaders/Shader Graphs_Blue 1.mat
+  artifactKey: Guid(92cae707dc044744ba1c6cb27a810ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graphs_Blue 1.mat using Guid(92cae707dc044744ba1c6cb27a810ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301c7fef130fa7800806fa9320c0ce70') in 0.287750 seconds 
+  Import took 0.297903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.549750 seconds.
+  path: Assets/DebugShaderGraphs/01
+  artifactKey: Guid(ff5260ac0b5b33144bd6128d2dfe163c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DebugShaderGraphs/01 using Guid(ff5260ac0b5b33144bd6128d2dfe163c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3dc4002934732e05ab0aa686029a99') in 0.007582 seconds 
+  Import took 0.013622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070507 seconds.
+  path: Assets/DebugShaderGraphs/01/DebugShader01.mat
+  artifactKey: Guid(75085a1917ba16d4c982a089e017c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DebugShaderGraphs/01/DebugShader01.mat using Guid(75085a1917ba16d4c982a089e017c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adecbde2e9e4673f338e7b90a528f03') in 0.774882 seconds 
+  Import took 0.780936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.136747 seconds.
+  path: Assets/DebugShaderGraphs/01/DebugShader01.unity
+  artifactKey: Guid(e10dc9ed92292e24492f3e9dc635ce82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DebugShaderGraphs/01/DebugShader01.unity using Guid(e10dc9ed92292e24492f3e9dc635ce82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e307974190b39df272e1cfccc45f1f0') in 0.007453 seconds 
+  Import took 0.015329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.393646 seconds.
+  path: Assets/DebugShaderGraphs/01/DebugShader01.shadergraph
+  artifactKey: Guid(a6618582bc2dd4d48a1a29ef43c65c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DebugShaderGraphs/01/DebugShader01.shadergraph using Guid(a6618582bc2dd4d48a1a29ef43c65c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562a5a3bdf74acbfa9906864761c01bb') in 0.004802 seconds 
+  Import took 0.011865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.342860 seconds.
+  path: Assets/DebugShaderGraphs/01/DebugShader01.shadergraph
+  artifactKey: Guid(a6618582bc2dd4d48a1a29ef43c65c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DebugShaderGraphs/01/DebugShader01.shadergraph using Guid(a6618582bc2dd4d48a1a29ef43c65c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562a5a3bdf74acbfa9906864761c01bb') in 0.004460 seconds 
+  Import took 0.011265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.987085 seconds.
+  path: Assets/DebugShaderGraphs/01/DebugShader01.shadergraph
+  artifactKey: Guid(a6618582bc2dd4d48a1a29ef43c65c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DebugShaderGraphs/01/DebugShader01.shadergraph using Guid(a6618582bc2dd4d48a1a29ef43c65c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639f9db561524b1c91062833751946e0') in 0.005197 seconds 
+  Import took 0.013302 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004213 seconds.
+Registered in 0.005530 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 190.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
 UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\01的文件夹\1. Unity\1. Game Project\Week-15---Shader-Graph-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\01的文件夹\1. Unity\1. Game Project\Week-15---Shader-Graph-VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <25e9afc147634a5ca855ab83fab425dd>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
 Mono: successfully reloaded assembly
-- Completed reload, in  2.816 seconds
+- Completed reload, in  1.338 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1339ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1138ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Shader 'HDRP/TerrainLit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3963 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 313.8 MB.
-System memory in use after: 305.0 MB.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3725 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.2 MB.
+System memory in use after: 164.5 MB.
 
-Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 4536.
-Total: 50.889259 ms (FindLiveObjects: 1.218617 ms CreateObjectMapping: 0.556278 ms MarkObjects: 15.899272 ms  DeleteObjects: 33.212153 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4438.
+Total: 3.240900 ms (FindLiveObjects: 0.371400 ms CreateObjectMapping: 0.167700 ms MarkObjects: 2.683100 ms  DeleteObjects: 0.017500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 84.323963 seconds.
+  path: Assets/DebugShaderGraphs/02/brickwork-texture.jpg
+  artifactKey: Guid(4dc9b4ee854d41d4fb4e566584481cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DebugShaderGraphs/02/brickwork-texture.jpg using Guid(4dc9b4ee854d41d4fb4e566584481cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e3ba6a20fe4ad4386f258bac33f632') in 0.049926 seconds 
+  Import took 0.055952 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 69088.108981 seconds.
-  path: Assets/Shaders/Lit.shadergraph
-  artifactKey: Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Lit.shadergraph using Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c3b1b36d75598e4170e2c8f1180648') in 0.034819 seconds
-  Import took 0.043008 seconds .
+  Time since last request: 0.000371 seconds.
+  path: Assets/DebugShaderGraphs/02/DebugShader02.mat
+  artifactKey: Guid(61aeda0381a3245f8abac307df644d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DebugShaderGraphs/02/DebugShader02.mat using Guid(61aeda0381a3245f8abac307df644d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0071011f3b842e5b760adc13249d45e6') in 0.744539 seconds 
+  Import took 0.751108 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.581827 seconds.
-  path: Assets/Shaders/Lit.shadergraph
-  artifactKey: Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Lit.shadergraph using Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c3b1b36d75598e4170e2c8f1180648') in 0.007026 seconds
-  Import took 0.013764 seconds .
+  Time since last request: 0.000355 seconds.
+  path: Assets/DebugShaderGraphs/02/DebugShader02.unity
+  artifactKey: Guid(66d2e96c552b64957b52c5e27b0cf2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DebugShaderGraphs/02/DebugShader02.unity using Guid(66d2e96c552b64957b52c5e27b0cf2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131fb8a21c7217261f54a8b2114e9d8b') in 0.010068 seconds 
+  Import took 0.017357 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4739.657647 seconds.
-  path: Assets/Shaders/Lit.shadergraph
-  artifactKey: Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Lit.shadergraph using Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd82238da3dc4af67228a5e0534972f') in 0.095810 seconds
-  Import took 0.351519 seconds .
+  Time since last request: 2.192954 seconds.
+  path: Assets/DebugShaderGraphs/02/DebugShader02.shadergraph
+  artifactKey: Guid(4e978104828134529be8a380b3a44d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DebugShaderGraphs/02/DebugShader02.shadergraph using Guid(4e978104828134529be8a380b3a44d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5d5eacc8e530bacc86e1bc3b2e7442') in 0.004588 seconds 
+  Import took 0.013454 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.956998 seconds.
-  path: Assets/Materials/Beige.mat
-  artifactKey: Guid(6e2769365b2b95444bcf07adfffb26f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Beige.mat using Guid(6e2769365b2b95444bcf07adfffb26f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb46c89c878dab8540dfbfa061c9be6') in 1.557923 seconds
-  Import took 1.569474 seconds .
+  Time since last request: 43.965558 seconds.
+  path: Assets/DebugShaderGraphs/02/SimplexNoise3.hlsl
+  artifactKey: Guid(e941c04db27924a47a8262a37c5a3e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DebugShaderGraphs/02/SimplexNoise3.hlsl using Guid(e941c04db27924a47a8262a37c5a3e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3630f4c3a5e4919ef26a0c27c49eb536') in 0.021881 seconds 
+  Import took 0.027806 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Materials/Red.mat
-  artifactKey: Guid(6911ef0f70ac2374ba6a37d6c9779bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Red.mat using Guid(6911ef0f70ac2374ba6a37d6c9779bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327041b8771573d2d715a75aa1f850f5') in 0.020894 seconds
-  Import took 0.032108 seconds .
+  Time since last request: 135.547626 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(e97e8d33c290c7a4e824c4dfbe9d2985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(e97e8d33c290c7a4e824c4dfbe9d2985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c30bdb03d66924aeb27a3b9ee7bbefc') in 0.019129 seconds 
+  Import took 0.028825 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.845012 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(888a0da1e3f30ed4292f43fa782f61b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(888a0da1e3f30ed4292f43fa782f61b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dce99edb22798b69dbb25c9f8d20cf2') in 0.002985 seconds
-  Import took 0.012898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.466692 seconds.
-  path: Assets/Materials/Brick.mat
-  artifactKey: Guid(8fa6af9ffe2ee468691d505407ff1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Brick.mat using Guid(8fa6af9ffe2ee468691d505407ff1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad924163cd4b00532a66cf5b0c3a7f44') in 0.266086 seconds
-  Import took 0.274786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 202.835384 seconds.
-  path: Assets/Materials/Beige.mat
-  artifactKey: Guid(6e2769365b2b95444bcf07adfffb26f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Beige.mat using Guid(6e2769365b2b95444bcf07adfffb26f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb26fbebc648e6b50a351db6734df06') in 0.035539 seconds
-  Import took 0.043183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Materials/Red.mat
-  artifactKey: Guid(6911ef0f70ac2374ba6a37d6c9779bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Red.mat using Guid(6911ef0f70ac2374ba6a37d6c9779bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03143cd842887134c6d179e9b6f6c4ca') in 0.017928 seconds
-  Import took 0.026013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.825999 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Icons/Help_Icon.png
-  artifactKey: Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Icons/Help_Icon.png using Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44b2dc90bec44890bbed4afd8b4fa77') in 0.064086 seconds
-  Import took 0.072650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/Moss/mossy_mud1_Normal-ogl.png
-  artifactKey: Guid(7b8eeba3cc4b1244abc4dcad93a2ff40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/Moss/mossy_mud1_Normal-ogl.png using Guid(7b8eeba3cc4b1244abc4dcad93a2ff40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1383199f30f8b3402c4189e5821280c8') in 0.035983 seconds
-  Import took 0.043534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Icons/Help_Icon.png
-  artifactKey: Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Icons/Help_Icon.png using Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44b2dc90bec44890bbed4afd8b4fa77') in 0.008855 seconds
-  Import took 0.016148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/Moss/mossy_mud1_albedo.png
-  artifactKey: Guid(8b182064fe8c52649b489d64cf417050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/Moss/mossy_mud1_albedo.png using Guid(8b182064fe8c52649b489d64cf417050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca57757a26b4340b73745d945c9ae78a') in 0.016011 seconds
-  Import took 0.024910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/Moss/mossy_mud1_Metallic.psd
-  artifactKey: Guid(f4da71ef366dcb94f83fe55a600ceccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/Moss/mossy_mud1_Metallic.psd using Guid(f4da71ef366dcb94f83fe55a600ceccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c9fa8f4f46d3ba24a39297a09acb44') in 0.041164 seconds
-  Import took 0.049453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b-metalness.psd
-  artifactKey: Guid(71247ef5d4e64c04288a1d881a874f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b-metalness.psd using Guid(71247ef5d4e64c04288a1d881a874f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f174299036aa56730e187be5df6a68') in 0.020587 seconds
-  Import took 0.031946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b.png
-  artifactKey: Guid(07514b0063cb3b945a93f8b1cb4accad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b.png using Guid(07514b0063cb3b945a93f8b1cb4accad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187eac53dbb3245b2f400beaec130254') in 0.018593 seconds
-  Import took 0.026593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b-normal.png
-  artifactKey: Guid(77d4f6da92e6bbf43a0eb7f26cf976e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b-normal.png using Guid(77d4f6da92e6bbf43a0eb7f26cf976e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180116fee087e975d32a06771def95ae') in 0.026566 seconds
-  Import took 0.033889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b-ao2.png
-  artifactKey: Guid(8d6fc03f74b9d7b4bac1f2f6d7e8437d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/BrickWall/redbricks2b-ao2.png using Guid(8d6fc03f74b9d7b4bac1f2f6d7e8437d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2152e6cfb0c90602e714f0b5705f1af') in 0.016315 seconds
-  Import took 0.024124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.786711 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Icons/SnapsIcon.png
-  artifactKey: Guid(f3b461aa3ce4e164e80610d900c9b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Icons/SnapsIcon.png using Guid(f3b461aa3ce4e164e80610d900c9b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd023939de24d5d75ca56ee5b293e8759') in 0.011035 seconds
-  Import took 0.019198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Scenes/ShaderGraphs/Materials/UVLayout.jpg
-  artifactKey: Guid(e10d71587fedc7f4c98bfb5a02d1beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphs/Materials/UVLayout.jpg using Guid(e10d71587fedc7f4c98bfb5a02d1beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7aa7a0a00022b1e4b237086930a4046') in 0.027938 seconds
-  Import took 0.035144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 670.932097 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/StairCase_01_Collider.asset
-  artifactKey: Guid(b2b1ef5883ed21a419cabf971d227a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/StairCase_01_Collider.asset using Guid(b2b1ef5883ed21a419cabf971d227a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8be0410e41f9d1f5c2bbe290cc0144') in 0.303824 seconds
-  Import took 0.370907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/StairCase_01_snaps001.asset
-  artifactKey: Guid(819fe431b79562e4f877f2d457964c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/StairCase_01_snaps001.asset using Guid(819fe431b79562e4f877f2d457964c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea765ef05de6557a2b0047042ade7b7c') in 0.025606 seconds
-  Import took 0.037368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.030590 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Meshes/StairCase_01_4m_Collider.asset
-  artifactKey: Guid(044c4b404b5b2c041a8e65c42f022566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Meshes/StairCase_01_4m_Collider.asset using Guid(044c4b404b5b2c041a8e65c42f022566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a90a0bba47bd3562142e91ad77457e') in 0.024896 seconds
-  Import took 0.034991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Meshes/StairCase_01_4m_snaps001.asset
-  artifactKey: Guid(3ffc2678d7607124495fadcf0070a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Meshes/StairCase_01_4m_snaps001.asset using Guid(3ffc2678d7607124495fadcf0070a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3ee3b3e1b97f326d2a7fad3dc2225d') in 0.023683 seconds
-  Import took 0.032761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 602.309878 seconds.
+  Time since last request: 6.176125 seconds.
   path: Assets/Shaders/Demo.shadergraph
   artifactKey: Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Demo.shadergraph using Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627221659852f0962c683a438b8320f9') in 0.011221 seconds
-  Import took 0.021744 seconds .
+Start importing Assets/Shaders/Demo.shadergraph using Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2895588820d6d5598d0676b11a2222') in 0.006332 seconds 
+  Import took 0.013329 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.489443 seconds.
-  path: Assets/Shaders/Lit.shadergraph
-  artifactKey: Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Lit.shadergraph using Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3eee7993d6c3e7866cd13229a6c12c') in 0.017882 seconds
-  Import took 0.029150 seconds .
+  Time since last request: 0.001031 seconds.
+  path: Assets/Shaders/Demo.shadergraph
+  artifactKey: Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Demo.shadergraph using Guid(8ad2648f783bc4c259e73d39c5339e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2895588820d6d5598d0676b11a2222') in 0.003549 seconds 
+  Import took 0.009587 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.680036 seconds.
-  path: Assets/Shaders/Lit.shadergraph
-  artifactKey: Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Lit.shadergraph using Guid(df68a0501126d488f9f9968a79ab6ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3eee7993d6c3e7866cd13229a6c12c') in 0.006579 seconds
-  Import took 0.013943 seconds .
+  Time since last request: 245.090582 seconds.
+  path: Assets/Shaders/XR Highlight.shadergraph
+  artifactKey: Guid(ad60895ae9ef7b847a22b931c75349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/XR Highlight.shadergraph using Guid(ad60895ae9ef7b847a22b931c75349e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806b05826f71f744f2a7b950852f5ab9') in 0.007724 seconds 
+  Import took 0.014095 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2655.690055 seconds.
-  path: Assets/Shaders/PBR Shader Sub Graph.shadersubgraph
-  artifactKey: Guid(75769e7aa484542458bdf4d00e1b40dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PBR Shader Sub Graph.shadersubgraph using Guid(75769e7aa484542458bdf4d00e1b40dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded2d643f2efd7aa60eaec492311ea7e') in 0.369659 seconds
-  Import took 0.457020 seconds .
+  Time since last request: 119.983247 seconds.
+  path: Assets/DebugShaderGraphs/02
+  artifactKey: Guid(7f7ad812736e8ba469b46ca52350e605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DebugShaderGraphs/02 using Guid(7f7ad812736e8ba469b46ca52350e605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5526d46075dc778bec882cb3d5787e') in 0.006317 seconds 
+  Import took 0.013193 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.401219 seconds.
-  path: Assets/Shaders/PBR Shader Sub Graph.shadersubgraph
-  artifactKey: Guid(75769e7aa484542458bdf4d00e1b40dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PBR Shader Sub Graph.shadersubgraph using Guid(75769e7aa484542458bdf4d00e1b40dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40794970db8af4c7c07eee1917a1d90b') in 0.005009 seconds
-  Import took 0.014310 seconds .
+  Time since last request: 527.915346 seconds.
+  path: Assets/Scenes/XRSelection.unity
+  artifactKey: Guid(23cf903ea3e371541a03bc1ecfd8391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/XRSelection.unity using Guid(23cf903ea3e371541a03bc1ecfd8391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f26d79b04f11296fa00927497054777') in 0.011725 seconds 
+  Import took 0.021711 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 4608.500404 seconds.
-  path: Assets/Shaders/PBR Shader Sub Graph.shadersubgraph
-  artifactKey: Guid(75769e7aa484542458bdf4d00e1b40dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PBR Shader Sub Graph.shadersubgraph using Guid(75769e7aa484542458bdf4d00e1b40dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932cbdd5058b6a29c15dfbc0ea669f1b') in 0.043838 seconds
-  Import took 0.148784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 96410.647308 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(256790dab8fc64044b4f3b8faa65b1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(256790dab8fc64044b4f3b8faa65b1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c4ac4c1bdc044417e148ace993d5ad') in 0.019849 seconds
-  Import took 0.230697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.374678 seconds.
-  path: Assets/Scenes/ShaderGraphDemo.unity
-  artifactKey: Guid(c499dca36a68fac44af3657853e3864e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShaderGraphDemo.unity using Guid(c499dca36a68fac44af3657853e3864e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f95a072e798c726e8e20c92149f6ab8') in 0.050833 seconds
-  Import took 0.059064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.781235 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd63ac6172e63c25f8ea5544a0188991') in 0.007625 seconds
-  Import took 0.016385 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
